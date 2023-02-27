@@ -2,4 +2,7 @@
 
 
 ## installation
-ejecutar: ionic serve
+
+ejecutar:
+npm install
+ionic serve
