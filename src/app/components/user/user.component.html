@@ -1,0 +1,12 @@
+<ion-item lines="none">
+  <ion-thumbnail slot="start">
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+  </ion-thumbnail>
+  <ion-label>
+    <h3>{{user.name}}</h3>
+    <h5>{{user.email}}</h5>
+  </ion-label>
+  <ion-button slot="end" fill="clear" (click)="favorite()">
+    <ion-icon [name]="iconName"></ion-icon>
+  </ion-button>
+</ion-item>
